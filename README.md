@@ -5,4 +5,5 @@ The program is able to read on different file descriptors and from standard inpu
 ## Compilation
 make
 
-The macro BUFFER_SIZE can be modified at compilation time. By default BUFFER_SIZE is set at 32.
+## Linking
+gcc -L. -lgetnextline main.c
