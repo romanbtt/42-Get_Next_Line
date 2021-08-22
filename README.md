@@ -3,7 +3,7 @@ This project consists to create a program able to read the text available on a f
 The program is able to read on different file descriptors and from standard input as well.
 
 ## Compilation
-make
+`make`
 
 ## Linking
-gcc -L. -lgetnextline main.c
+`gcc -L. -lgetnextline main.c`
